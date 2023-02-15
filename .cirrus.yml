@@ -1,6 +1,6 @@
 env:
-    OEM: realme
-    CODENAME: rmx2020
+    OEM: xiaomi
+    CODENAME: sweet
     CIRRUS_CI: true
     CIRRUS_SHELL: bash
     TARGET: pbrp
@@ -9,7 +9,7 @@ env:
     USERMAIL: imranpopz32@gmail.com
     CR_REPO: https://github.com/PitchBlackRecoveryProject/manifest_pb.git
     CR_BRANCH: android-12.1
-    DT_REPO: https://github.com/PitchBlackRecoveryProject/android_device_realme_rmx2020-pbrp.git
+    DT_REPO: https://github.com/nebrassy/device_xiaomi_sweet-TWRP.git
     DT_BRANCH: android-12.1
     CIRRUS_CHANGE_TITLE: Building PithBlack Recovery for ${COMENAME} from ${OEM}
     CIRRUS_CHANGE_MESSAGE: Building PithBlack Recovery for ${COMENAME} from ${OEM}
