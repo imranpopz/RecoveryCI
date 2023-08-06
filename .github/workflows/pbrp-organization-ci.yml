@@ -4,27 +4,31 @@ on:
     inputs:
 
       VENDOR_NAME:
-        description: 'VENDOR_NAME'
+        description: 'bengal'
         required: true
 
       DEVICE_CODENAME:
-        description: 'DEVICE_CODENAME'
+        description: 'fog'
         required: true
-                
+        
+      KERNEL_SOURCE:
+        description: 'https://github.com/dblenk-project/kernel_xiaomi_fog_header'
+        required: true
+        
       MANIFEST_BRANCH:
-        description: 'MANIFEST_BRANCH'
+        description: 'android-12.1'
         required: true
        
       DEVICE_TREE_URL:
-        description: 'DEVICE_TREE_URL'
+        description: 'https://github.com/infinixs5lite/device_xiaomi_fog-TWRP-PBRP'
         required: true
 
       DEVICE_TREE_BRANCH:
-        description: 'DEVICE_TREE_BRANCH'
+        description: 'TWRP-12.1'
         required: true
 
       COMMIT_MSG:
-        description: 'COMMIT_MSG'
+        description: 'PRBP'
         required: true
         
 jobs:
